@@ -48,3 +48,21 @@ tft.fillScreen(TFT_BLACK);
 ```
 
 The touch screen will now work without prompting for calibration on each startup.
+
+Pin IO data:
+
+Display pin	ESP32-S3	Notes
+VCC	3V3	These modules have an onboard regulator, but 3V3 keeps the logic levels safe
+GND	GND	
+CS	IO10	Display chip select
+RESET	IO14	
+DC	IO13	
+SDI (MOSI)	IO11	
+SCK	IO12	
+LED	3V3	Backlight always on. Use a GPIO (e.g. IO9) for PWM dimming
+SDO (MISO)	IO8	
+T_CLK	IO12	Shared with SCK
+T_DIN	IO11	Shared with MOSI
+T_DO	IO8	Shared with MISO
+T_CS	IO7	Touch chip select
+T_IRQ	IO6	Optional. Only needed for interrupt-driven touch
