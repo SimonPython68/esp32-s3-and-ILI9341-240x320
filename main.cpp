@@ -11,9 +11,10 @@ void setup() {
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.drawString("Touch the screen", 20, 10, 2);
 
- uint16_t calData[5] = { 498, 3329, 436, 3312, 3 };  // replace with YOUR numbers
-  tft.setTouch(calData);
-  tft.fillScreen(TFT_BLACK);;  // replace with YOUR numbers
+  uint16_t calData[5];
+  tft.calibrateTouch(calData, TFT_MAGENTA, TFT_BLACK, 15);
+  Serial.printf("calData = { %u, %u, %u, %u, %u }\n",
+    calData[0], calData[1], calData[2], calData[3], calData[4]);
   tft.setTouch(calData);
   tft.fillScreen(TFT_BLACK);
 }
