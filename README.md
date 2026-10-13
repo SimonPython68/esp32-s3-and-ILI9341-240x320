@@ -31,7 +31,7 @@ Once the display is working, it will prompt you to calibrate the touch screen. Y
 
 ### Step 1: Run the calibration
 
-Use the following code to run the calibration:
+Use the following code to run the calibration:This is part of the main.cpp
 
 ```cpp
 uint16_t calData[5];
