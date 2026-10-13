@@ -23,7 +23,7 @@ Code was written using **PlatformIO** in **VS Code**.
 | T_DIN | IO11 | Shared with MOSI |
 | T_DO | IO8 | Shared with MISO |
 | T_CS | IO7 | Touch chip select |
-| T_IRQ | IO6 | Optional. Only needed for interrupt-driven touch |
+| T_IRQ | IO6 | Optional. Only needed for interrupt-driven touch, I did not use it.|
 
 ## Touch calibration
 
