@@ -67,3 +67,10 @@ tft.fillScreen(TFT_BLACK);
 ```
 
 The touch screen will now work without prompting for calibration on each startup.
+
+<img width="234" height="143" alt="PXL_20261012_091931679~2" src="https://github.com/user-attachments/assets/41376cdc-76d9-4099-bff2-5c6e5e2ab7e3" />
+<img width="236" height="189" alt="PXL_20261013_105815637 MACRO_FOCUS~2" src="https://github.com/user-attachments/assets/eab54651-c6d8-44ea-88a0-bbb945b5ce7d" />
+<img width="263" height="339" alt="PXL_20261013_094907215~2" src="https://github.com/user-attachments/assets/d5282cba-a809-4b2b-8c62-2c3255e15fde" />
+
+
+
