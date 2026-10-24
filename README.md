@@ -25,6 +25,8 @@ Code was written using **PlatformIO** in **VS Code**.
 | T_CS | IO7 | Touch chip select |
 | T_IRQ | IO6 | Optional. Only needed for interrupt-driven touch,I did not use it.|
 
+Please note ## The T_ are not in the correct order for my ILI, just be mindful when wiring. 
+
 ## Touch calibration
 
 Once the display is working, it will prompt you to calibrate the touch screen. You then need to record the resulting `calData` values and swap the calibration code for a hard-coded version, so you don't have to recalibrate on every boot.
